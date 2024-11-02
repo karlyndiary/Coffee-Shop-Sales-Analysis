@@ -6,17 +6,15 @@ import altair as alt
 st.set_page_config(
     page_title="Coffee Shop Sales Dashboard",
     page_icon="☕",
-    layout="wide",
-    initial_sidebar_state="expanded")
+    layout="wide")
 
 alt.themes.enable("dark")
 
-# Streamlit application
 st.title('☕ Coffee Shop Sales Dashboard')
 
 df = pd.read_csv('cleaned_coffee_sales_dataset.csv')
 
-# Display each KPI in a separate column for better layout
+# Display each KPI
 col1, col2, col3, col4 = st.columns(4)
 
 # Total Sales Revenue
@@ -74,7 +72,6 @@ fig2 = px.pie(
     color='location',
 )
 
-# Modify the pie chart to make it a donut chart
 fig2.update_traces(hole=0.4)
 
 # Sort the DataFrame by sales in descending order and select the top 10 products
