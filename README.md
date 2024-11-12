@@ -57,6 +57,8 @@ Below is the overview page from the Streamlit dashboard and more examples are in
 
 - **Coffee Type Performance:** Gourmet Brewed Coffee is the most popular coffee type, with 16K orders (29%), while Premium Brewed Coffee is the least popular, with 8K orders (14%).
 
+![Coffee Sales Dashboard](https://github.com/user-attachments/assets/3fd7955e-e595-4f4f-8a83-9ccd01ac4e92)
+
 # Recommendations
 
 Based on the uncovered insights, the following recommendations have been provided : 
